@@ -1,0 +1,85 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+nav > h3 > a{
+    text-decoration: none;
+    font-size: 30px;
+}
+.primary-text{
+    color:#FD6E0A;
+}
+nav > ul{
+    display: flex;
+    gap:30px;
+    align-items: center;
+}
+ul > li {
+    list-style: none;
+}
+ul > li > a{
+    text-decoration: none;
+    /* color: black; */
+}
+.btn-primary{
+    height: 40px;
+    width: 120px;
+    font-size: 15px;
+    color: white;
+    border-radius: 5px;
+    background: #FD6E0A;
+}
+.header{
+    background-color:#FFF8F3;
+    background-image: url('images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    margin-bottom: 100px;
+}
+.banner{
+    padding: 30px 30px 0 200px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width:500px
+}
+.banner-greeting{
+    font-size: 45px;
+    margin: 0;
+}
+.banner-title{
+    font-size: 65px;
+    margin:0;
+}
+main{
+    width: 1140px;
+    margin: 0 auto;
+}
+.about{
+    background-color: #FFF8F3;
+    padding: 120px 200px;
+}
+.section-title{
+    text-align: center;
+    font-size: 35px;
+}
+.about-para{
+    text-align: justify;
+}
+.about-description{
+    display: flex;
+   justify-content: space-between;
+   text-align: center;
+}
+.info-title{
+    font-weight: normal;
+}
+.info-description{
+    font-weight: bold;
+}
