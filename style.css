@@ -83,3 +83,34 @@ main{
 .info-description{
     font-weight: bold;
 }
+
+/* What section*/
+
+.what-description{
+    display: flex;
+}
+.what-info{
+    padding: 30px 40px;
+    /* border: solid #FD6E0A; */
+}
+.section-title, .what-des{
+    text-align: center;
+}
+.what-des{
+    padding: 20px 150px;
+}
+.section-title{
+    font-size: 35px;
+}
+.what-I-do{
+    margin-top: 100px;
+}
+
+.resume-container{
+    display: flex;
+    gap:40px
+}
+.download-cv{
+    text-align: center;
+    margin-top:50px;
+}
