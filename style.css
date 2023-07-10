@@ -63,7 +63,7 @@ main{
 }
 .about{
     background-color: #FFF8F3;
-    padding: 120px 200px;
+    padding: 120px 180px;
 }
 .section-title{
     text-align: center;
@@ -113,4 +113,29 @@ main{
 .download-cv{
     text-align: center;
     margin-top:50px;
+}
+.footer-area{
+    padding: 130px 180px;
+    background-color:#FFF8F3;
+    margin-top: 100px;
+    display: flex;
+}
+.social-icon ul{
+    display: flex;
+    gap:30px;
+    padding:0;
+   
+}
+.contact-form input[type="text"],input[type="email"],textarea{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 25px;
+    padding: 15px 35px;
+    border-radius: 5px;
+    background: white;
+    border: 0;
+    width: 100%;
+}
+.footer-column{
+    width: 50%;
 }
